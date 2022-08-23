@@ -11,7 +11,7 @@
     "Bootstrap column."
     `(with-html-output(*standard-output*)
 	 (:div :class (concatenate 'string "col"
-				   (if ,width (format nil "-~a" ,size))
+				   (if ,width (format nil "-~a" ,width))
 				   (if ,breakpoint
 				       (if ,auto
 					   (format nil " col-~a-auto" ,breakpoint)
@@ -25,3 +25,4 @@
 				   (if ,row-column
 				       (format nil " row-cols-~a" ,row-column)))
 	       ,@body)))
+

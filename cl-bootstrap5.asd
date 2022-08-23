@@ -5,5 +5,8 @@
     :serial t
     :author "FluxGenerator <loki_was_here@hotmail.com>"
     :depends-on (:cl-who)
-    :componentss ((:file "package")
-		  (:file "cl-bootstrap5")))
+    :components ((:file "package")
+		 (:file "cl-bootstrap5")
+		 (:module "src"
+		  :serial t
+		  :components ((:file "accordian")))))

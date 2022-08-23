@@ -4,4 +4,5 @@
   (:export #:bs-container)
   (:export #:bs-container
 	   #:bs-col
-	   #:bs-row))
+	   #:bs-row
+	   #:bs-accordian))
