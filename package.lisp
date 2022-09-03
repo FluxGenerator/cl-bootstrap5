@@ -1,8 +1,9 @@
 (in-package :cl-user)
 (defpackage #:cl-bootstrap5
-  (:use :cl :cl-user :cl-who)
-  (:export #:bs-container)
-  (:export #:bs-container
+  (:use :cl :cl-who)
+  (:export #:bs
+	   #:bs-container
 	   #:bs-col
 	   #:bs-row
-	   #:bs-accordian))
+	   #:bs-accordian
+	   #:bs-accordian-item))

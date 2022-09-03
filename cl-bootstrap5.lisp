@@ -1,5 +1,10 @@
 (in-package :cl-bootstrap5)
 
+(defmacro bs (&body body)
+  "Base macro."
+  `(with-html-output (*standard-output*)
+     ,@body))
+
 (defmacro bs-container ((&key (type nil)) &body body)
     "Bootstrap container."
     `(with-html-output (*standard-output*)
@@ -25,4 +30,3 @@
 				   (if ,row-column
 				       (format nil " row-cols-~a" ,row-column)))
 	       ,@body)))
-
