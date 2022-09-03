@@ -5,5 +5,5 @@
 	   #:bs-container
 	   #:bs-col
 	   #:bs-row
-	   #:bs-accordian
-	   #:bs-accordian-item))
+	   #:bs-accordioan
+	   #:bs-accordioan-item))
