@@ -41,3 +41,16 @@
 				  (if ,collapsed
 				      (format nil " collapsed")))
 	      ,@body)))
+
+
+(defmacro bs-accordion-collapse ((&key (id "") (aria-labelledby "")
+				       (data-bs-parent "") (show nil))
+				 &body body)
+  "Bootstrap accordion collapse."
+  `(bs
+     (:div :id ,id :data-bs-parent ,data-bs-parent
+	   :aria-labbelledby ,aria-labelledby
+	   :class (concatenate 'string
+			       "accordion-collapse collapse"
+			       (if ,show (format nil " show")))
+	   ,@body)))
