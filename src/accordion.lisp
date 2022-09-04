@@ -1,9 +1,11 @@
 (in-package :cl-bootstrap5)
 
-(defmacro bs-accordion ((&key (id "")) &body body)
+(defmacro bs-accordion ((&key (id "") (flush nil)) &body body)
     "Bootstrap accordion."
   `(bs
-     (:div :class "accordion" :id ,id
+     (:div :id ,id :class (concatenate 'string
+				       "accordion"
+				       (if ,flush (format nil " accordion-flush")))
 	   ,@body)))
 
 (defmacro bs-accordion-item ((&key (id "")) &body body)
