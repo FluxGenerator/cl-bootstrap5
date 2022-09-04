@@ -6,4 +6,5 @@
 	   #:bs-col
 	   #:bs-row
 	   #:bs-accordioan
-	   #:bs-accordioan-item))
+	   #:bs-accordioan-item
+	   #:bs-accordioan-button))
