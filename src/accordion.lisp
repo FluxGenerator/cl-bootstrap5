@@ -8,6 +8,11 @@
 				       (if ,flush (format nil " accordion-flush")))
 	   ,@body)))
 
+(defmacro bs-accordion-body ((&key (id "")) &body body)
+  `(bs
+     (:div :class "accordion-body" :id ,id
+	   ,@body)))
+
 (defmacro bs-accordion-item ((&key (id "")) &body body)
   "Bootstrap accordion item."
   `(bs 
