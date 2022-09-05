@@ -9,4 +9,4 @@
 		 (:file "cl-bootstrap5")
 		 (:module "src"
 		  :serial t
-		  :components ((:file "accordioan")))))
+		  :components ((:file "accordion")))))
