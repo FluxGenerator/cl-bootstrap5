@@ -5,6 +5,6 @@
 	   #:bs-container
 	   #:bs-col
 	   #:bs-row
-	   #:bs-accordioan
-	   #:bs-accordioan-item
-	   #:bs-accordioan-button))
+	   #:bs-accordion
+	   #:bs-accordion-item
+	   #:bs-accordion-button))
