@@ -35,12 +35,12 @@
     (6 `(bs
 	  (:h6 :class "accordion-header" :id ,id ,@body)))))
 
-(defmacro bs-accordion-button ((&key (id "") (collapsed nil)
+(defmacro bs-accordion-button ((&key (id "") (collapsed nil) (data-bs-toggle "")
 				     (target "") (aria-expanded "false")
 				     (aria-controls "")) &body body)
   "Bootstrap accordion button."
   `(bs
-     (:button :type "button" :data-bs-toggle "collapse"
+     (:button :type "button" :data-bs-toggle ,data-bs-toggle
 	      :data-bs-target ,target :aria-expanded ,aria-expanded
 	      :aria-controls ,aria-controls :id ,id
 	      :class (concatenate 'string
