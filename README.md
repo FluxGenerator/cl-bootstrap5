@@ -5,7 +5,10 @@
 Common lisp library for Bootstrap 5 inspired from [cl-bootstrap](https://github.com/rajasegar/cl-bootstrap/).
 
 ---
+## Dependencies
+[cl-who](https://github.com/edicl/cl-who)
 
+---
 ## Usage
 ```
     (ql:quickload :cl-bootstrap5)
