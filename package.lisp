@@ -7,4 +7,5 @@
 	   #:bs-row
 	   #:bs-accordion
 	   #:bs-accordion-item
-	   #:bs-accordion-button))
+	   #:bs-accordion-button
+	   #:bs-accordion-collapse))
