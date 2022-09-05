@@ -8,4 +8,7 @@
 	   #:bs-accordion
 	   #:bs-accordion-item
 	   #:bs-accordion-button
-	   #:bs-accordion-collapse))
+	   #:bs-accordion-collapse
+	   #:bs-alert
+	   #:bs-alert-link
+	   #:bs-alert-heading))
