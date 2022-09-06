@@ -11,4 +11,5 @@
 	   #:bs-accordion-collapse
 	   #:bs-alert
 	   #:bs-alert-link
-	   #:bs-alert-heading))
+	   #:bs-alert-heading
+	   #:bs-badge))

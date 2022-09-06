@@ -10,4 +10,5 @@
 		 (:module "src"
 		  :serial t
 		  :components ((:file "accordion")
-			       (:file "alert")))))
+			       (:file "alert")
+			       (:file "badge")))))
