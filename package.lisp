@@ -12,4 +12,5 @@
 	   #:bs-alert
 	   #:bs-alert-link
 	   #:bs-alert-heading
-	   #:bs-badge))
+	   #:bs-badge
+	   #:bs-button))

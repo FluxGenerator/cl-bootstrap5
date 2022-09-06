@@ -11,4 +11,5 @@
 		  :serial t
 		  :components ((:file "accordion")
 			       (:file "alert")
-			       (:file "badge")))))
+			       (:file "badge")
+			       (:file "button")))))
