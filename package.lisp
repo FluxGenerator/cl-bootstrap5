@@ -6,6 +6,7 @@
 	   #:bs-col
 	   #:bs-row
 	   #:bs-accordion
+	   #:bs-accordion-body
 	   #:bs-accordion-item
 	   #:bs-accordion-button
 	   #:bs-accordion-collapse
