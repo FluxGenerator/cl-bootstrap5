@@ -12,4 +12,5 @@
 		  :components ((:file "accordion")
 			       (:file "alert")
 			       (:file "badge")
+			       (:file "breadcrumb")
 			       (:file "button")))))

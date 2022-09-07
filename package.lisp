@@ -13,4 +13,6 @@
 	   #:bs-alert-link
 	   #:bs-alert-heading
 	   #:bs-badge
-	   #:bs-button))
+	   #:bs-button
+	   #:bs-breadcrumb
+	   #:bs-breadcrumb-item))
