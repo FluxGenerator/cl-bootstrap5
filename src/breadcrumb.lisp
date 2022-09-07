@@ -4,8 +4,8 @@
 			       (divider "/")) &body body)
   "Bootstrap breadcrumb."
   `(bs
-     (:nav  :id ,id :aria-label ,aria-label
-	    :style (format nil "--bs-breadcrumb-divider: '~a';" ,divider)
+     (:nav :id ,id :aria-label ,aria-label
+	   :style (format nil "--bs-breadcrumb-divider: '~a';" ,divider)
 	   (:ol :class "breadcrumb"
 		,@body))))
 
