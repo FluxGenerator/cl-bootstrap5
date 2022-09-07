@@ -14,5 +14,6 @@
 	   #:bs-alert-heading
 	   #:bs-badge
 	   #:bs-button
+	   #:bs-button-group
 	   #:bs-breadcrumb
 	   #:bs-breadcrumb-item))
