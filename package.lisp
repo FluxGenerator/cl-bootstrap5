@@ -18,4 +18,10 @@
 	   #:bs-button-close
 	   #:bs-button-group
 	   #:bs-breadcrumb
-	   #:bs-breadcrumb-item))
+	   #:bs-breadcrumb-item
+	   #:bs-card
+	   #:bs-card-body
+	   #:bs-card-img
+	   #:bs-card-link
+	   #:bs-card-text
+	   #:bs-card-title))

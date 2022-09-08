@@ -14,4 +14,5 @@
 			       (:file "badge")
 			       (:file "breadcrumb")
 			       (:file "button")
-			       (:file "button-group")))))
+			       (:file "button-group")
+			       (:file "card")))))
