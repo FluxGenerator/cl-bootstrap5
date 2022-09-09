@@ -15,4 +15,5 @@
 			       (:file "breadcrumb")
 			       (:file "button")
 			       (:file "button-group")
-			       (:file "card")))))
+			       (:file "card")
+			       (:file "carousel")))))

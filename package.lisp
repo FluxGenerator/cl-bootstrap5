@@ -24,4 +24,13 @@
 	   #:bs-card-img
 	   #:bs-card-link
 	   #:bs-card-text
-	   #:bs-card-title))
+	   #:bs-card-title
+	   #:bs-carousel
+	   #:bs-carousel-caption
+	   #:bs-carousel-control
+	   #:bs-carousel-inner
+	   #:bs-carousel-indicators
+	   #:bs-carousel-indicator-button
+	   #:bs-carousel-item
+	   #:bs-carousel-next-icon
+	   #:bs-carousel-prev-icon))
