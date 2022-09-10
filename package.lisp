@@ -33,4 +33,5 @@
 	   #:bs-carousel-indicator-button
 	   #:bs-carousel-item
 	   #:bs-carousel-next-icon
-	   #:bs-carousel-prev-icon))
+	   #:bs-carousel-prev-icon
+	   #:bs-collapses))

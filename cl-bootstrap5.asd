@@ -16,4 +16,5 @@
 			       (:file "button")
 			       (:file "button-group")
 			       (:file "card")
-			       (:file "carousel")))))
+			       (:file "carousel")
+			       (:file "collapse")))))
