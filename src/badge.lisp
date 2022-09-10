@@ -9,5 +9,3 @@
 					(if ,type (format nil " badge-~a" ,type))
 					(if ,rounded-pill (format nil " rounded-pill")))
 	    ,@body)))
-
-
