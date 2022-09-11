@@ -34,4 +34,9 @@
 	   #:bs-carousel-item
 	   #:bs-carousel-next-icon
 	   #:bs-carousel-prev-icon
-	   #:bs-collapses))
+	   #:bs-collapses
+	   #:bs-dropdown
+	   #:bs-dropdown-button
+	   #:bs-dropdown-button-close
+	   #:bs-dropdown-item
+	   #:bs-dropdown-menu))
