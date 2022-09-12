@@ -22,26 +22,28 @@
      (:li (:a :class "dropdown-item" :id ,id :href ,href ,@body))))
 
 (defmacro bs-dropdown-button ((&key (id "") (type "primary")
-				    (data-bs-toggle "") (aria-expanded "false"))
-			      &body body)
+				    (data-bs-toggle "") (aria-expanded "false")
+				    (size nil)) &body body)
   "Bootstrap dropdown button."
   `(bs
      (:button :id ,id :data-bs-toggle ,data-bs-toggle
 	      :aria-expanded ,aria-expanded
 	      :class (concatenate 'string
 				  "dropdown-toggle"
-				  (format nil " btn btn-~a" ,type))
+				  (format nil " btn btn-~a" ,type)
+				  (if ,size (format nil " btn-~a" ,size)))
 	      ,@body)))
 
 (defmacro bs-dropdown-button-split ((&key (id "") (type "primary")
-				    (data-bs-toggle "") (aria-expanded "false"))
-			      &body body)
+					  (data-bs-toggle "") (aria-expanded "false")
+					  (size nil)) &body body)
   "Bootstrap dropdown split button."
   `(bs
-     (bs-button (:type ,type))
+     (bs-button (:type ,type :size ,size))
      (:button :id ,id :data-bs-toggle ,data-bs-toggle
 	      :aria-expanded ,aria-expanded
 	      :class (concatenate 'string
 				  "dropdown-toggle dropdown-toggle-split"
-				  (format nil " btn btn-~a" ,type))
+				  (format nil " btn btn-~a" ,type)
+				  (if ,size (format nil " btn-~a" ,size)))
 	      ,@body)))
