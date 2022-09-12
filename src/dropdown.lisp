@@ -31,11 +31,12 @@
 
 (defmacro bs-dropdown-button ((&key (id "") (type "primary")
 				    (data-bs-toggle "") (aria-expanded "false")
-				    (size nil)) &body body)
+				    (size nil) (auto-close "false")) &body body)
   "Bootstrap dropdown button."
   `(bs
      (:button :id ,id :data-bs-toggle ,data-bs-toggle
 	      :aria-expanded ,aria-expanded
+	      :data-bs-auto-close ,auto-close
 	      :class (concatenate 'string
 				  "dropdown-toggle"
 				  (format nil " btn btn-~a" ,type)
