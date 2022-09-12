@@ -16,10 +16,14 @@
 
 	  ,@body)))
 
-(defmacro bs-dropdown-item ((&key (id "") (href "")) &body body)
+(defmacro bs-dropdown-item ((&key (id "") (href "") (active nil)) &body body)
   "Bootstrap dropdown item."
   `(bs
-     (:li (:a :class "dropdown-item" :id ,id :href ,href ,@body))))
+     (:li (:a :id ,id :href ,href :aria-current (if ,active "true" "")
+	      :class (concatenate 'string
+				  "dropdown-item"
+				  (if ,active " active"))
+	      ,@body))))
 
 (defmacro bs-dropdown-button ((&key (id "") (type "primary")
 				    (data-bs-toggle "") (aria-expanded "false")
