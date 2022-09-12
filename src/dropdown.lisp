@@ -47,3 +47,8 @@
 				  (format nil " btn btn-~a" ,type)
 				  (if ,size (format nil " btn-~a" ,size)))
 	      ,@body)))
+
+(defmacro bs-dropup ((&key (id "")) &body body)
+  "Bootstrap dropup."
+  `(bs
+     (:div :id ,id :class "btn-group dropup" ,@body)))
