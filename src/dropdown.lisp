@@ -16,13 +16,17 @@
 
 	  ,@body)))
 
-(defmacro bs-dropdown-item ((&key (id "") (href "") (active nil)) &body body)
+(defmacro bs-dropdown-item ((&key (id "") (href "") (active nil)
+				  (disabled nil)) &body body)
   "Bootstrap dropdown item."
   `(bs
      (:li (:a :id ,id :href ,href :aria-current (if ,active "true" "")
+	      :aria-disabled (if ,disabled "true " "")
+	      :tabindex (if ,disabled "-1 " "")
 	      :class (concatenate 'string
 				  "dropdown-item"
-				  (if ,active " active"))
+				  (if ,active " active")
+				  (if ,disabled " disabled"))
 	      ,@body))))
 
 (defmacro bs-dropdown-button ((&key (id "") (type "primary")
