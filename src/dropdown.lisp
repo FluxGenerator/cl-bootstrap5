@@ -57,3 +57,8 @@
   "Bootstrap dropend."
   `(bs
      (:div :id ,id :class "btn-group dropend" ,@body)))
+
+(defmacro bs-dropstart ((&key (id "")) &body body)
+  "Bootstrap dropstart."
+  `(bs
+     (:div :id ,id :class "btn-group dropstart" ,@body)))
