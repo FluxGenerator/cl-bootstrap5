@@ -18,4 +18,5 @@
 			       (:file "card")
 			       (:file "carousel")
 			       (:file "collapse")
-			       (:file "dropdown")))))
+			       (:file "dropdown")
+			       (:file "list-group")))))

@@ -39,4 +39,7 @@
 	   #:bs-dropdown-button
 	   #:bs-dropdown-button-close
 	   #:bs-dropdown-item
-	   #:bs-dropdown-menu))
+	   #:bs-dropdown-menu
+	   #:bs-list-group
+	   #:bs-list-group-item
+	   #:bs-list-group-button))
