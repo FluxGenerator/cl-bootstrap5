@@ -19,4 +19,5 @@
 			       (:file "carousel")
 			       (:file "collapse")
 			       (:file "dropdown")
-			       (:file "list-group")))))
+			       (:file "list-group")
+			       (:file "navs")))))

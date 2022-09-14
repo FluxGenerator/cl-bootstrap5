@@ -42,4 +42,6 @@
 	   #:bs-dropdown-menu
 	   #:bs-list-group
 	   #:bs-list-group-item
-	   #:bs-list-group-button))
+	   #:bs-list-group-button
+	   #:bs-nav
+	   #:bs-nav-item))
