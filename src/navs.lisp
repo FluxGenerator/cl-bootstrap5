@@ -22,8 +22,16 @@
 				      (if ,dropdown " dropdown"))
 	  ,@body)))
 
-(defmacro bs-nav-link ((&key (id "") (href "")) &body body)
+(defmacro bs-nav-link ((&key (id "") (href "") (active nil)
+			     (disabled nil)) &body body)
   "Bootstrap nav link."
   `(bs
-     (:a :id ,id :class "nav-link" :href ,href
+     (:a :id ,id :href ,href
+	 :tabindex (if ,disabled "-1" "")
+	 :aria-disabled (if ,disabled "true" "")
+	 :aria-current (if ,active "page" "")
+	 :class (concatenate 'string
+			     "nav-link"
+			     (if ,active " active" "")
+			     (if ,disabled " disabled" ""))
 	 ,@body)))
