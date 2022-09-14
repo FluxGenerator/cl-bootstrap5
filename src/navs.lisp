@@ -21,3 +21,9 @@
 				      "nav-item"
 				      (if ,dropdown " dropdown"))
 	  ,@body)))
+
+(defmacro bs-nav-link ((&key (id "") (href "")) &body body)
+  "Bootstrap nav link."
+  `(bs
+     (:a :id ,id :class "nav-link" :href ,href
+	 ,@body)))
