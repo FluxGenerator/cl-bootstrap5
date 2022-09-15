@@ -14,6 +14,11 @@
 					  ,alignment) ""))
 	  ,@body)))
 
+(defmacro bs-nav-tab ((&key (id "")) &body body)
+  "Bootstrap nav-tab."
+  `(bs
+     (:div :class "nav nav-tabs") :id ,id :role "tablist" ,@body))
+
 (defmacro bs-nav-item ((&key (id "") (dropdown nil)) &body body )
   "Bootstrap nav."
   `(bs
