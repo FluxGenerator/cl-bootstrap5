@@ -19,6 +19,14 @@
   `(bs
      (:div :class "nav nav-tabs") :id ,id :role "tablist" ,@body))
 
+(defmacro bs-nav-pill ((&key (id "") (fill nil) (justified nil)) &body body)
+  `(bs
+     (:div :id ,id :class (concatenate 'string
+				       "nav nav-pills"
+				       (if ,fill " nav-fill" "")
+				       (if ,justified " nav-justified" ""))
+	   ,@body)))
+
 (defmacro bs-nav-item ((&key (id "") (dropdown nil)) &body body )
   "Bootstrap nav."
   `(bs
