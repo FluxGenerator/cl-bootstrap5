@@ -5,10 +5,12 @@
   `(with-html-output (*standard-output*)
      ,@body))
 
-(defmacro bs-container ((&key (id "")) &body body)
+(defmacro bs-container ((&key (id "") (width nil)) &body body)
   "Bootstrap container."
   `(bs
-     (:div :id ,id :class "container"
+     (:div :id ,id :class (concatenate 'string
+				       "container"
+				       (if ,width (format nil "-~a" ,width)))
 	   ,@body)))
 
 (defmacro bs-container-fluid ((&key (id nil)) &body body)
