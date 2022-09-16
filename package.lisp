@@ -3,6 +3,7 @@
   (:use :cl :cl-who)
   (:export #:bs
 	   #:bs-container
+	   #:bs-container-fluid
 	   #:bs-col
 	   #:bs-row
 	   #:bs-accordion
