@@ -45,4 +45,10 @@
 	   #:bs-list-group-item
 	   #:bs-list-group-button
 	   #:bs-nav
-	   #:bs-nav-item))
+	   #:bs-nav-item
+	   #:bs-navbar
+	   #:bs-navbar-brand
+	   #:bs-navbar-collapse
+	   #:bs-navbar-text
+	   #:bs-navbar-toggler
+	   #:bs-navbar-toogler-icon))

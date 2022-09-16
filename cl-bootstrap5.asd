@@ -20,4 +20,5 @@
 			       (:file "collapse")
 			       (:file "dropdown")
 			       (:file "list-group")
-			       (:file "navs")))))
+			       (:file "navs")
+			       (:file "navbar")))))
