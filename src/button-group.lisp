@@ -5,9 +5,9 @@
 			   &body body)
   "Bootstrap button group."
   `(bs
-     (:div :id ,id :role ,role :aria-label ,aria-label
-	   :class (concatenate 'string
-			       "btn-group"
-			       (if ,vertical (format nil "-vertical"))
-			       (if ,size (format nil " btn-group-~a" ,size)))
-	   ,@body)))
+    (:div :id ,id :role ,role :aria-label ,aria-label
+	  :class (concatenate 'string
+			      "btn-group"
+			      (if ,vertical (format nil "-vertical"))
+			      (if ,size (format nil " btn-group-~a" ,size)))
+	  ,@body)))

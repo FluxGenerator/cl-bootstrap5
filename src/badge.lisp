@@ -4,8 +4,8 @@
 			  (rounded-pill nil)) &body body)
   "Bootstrap badge."
   `(bs
-     (:span :id ,id :class (concatenate 'string
-					"badge"
-					(format nil " bg-~a" ,type)
-					(if ,rounded-pill (format nil " rounded-pill")))
-	    ,@body)))
+    (:span :id ,id :class (concatenate 'string
+				       "badge"
+				       (format nil " bg-~a" ,type)
+				       (if ,rounded-pill (format nil " rounded-pill")))
+	   ,@body)))
