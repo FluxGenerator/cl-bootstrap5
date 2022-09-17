@@ -21,4 +21,5 @@
 			     (:file "dropdown")
 			     (:file "list-group")
 			     (:file "navs")
-			     (:file "navbar")))))
+			     (:file "navbar")
+			     (:file "offcanvas")))))

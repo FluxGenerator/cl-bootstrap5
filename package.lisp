@@ -51,4 +51,8 @@
 	   #:bs-navbar-collapse
 	   #:bs-navbar-text
 	   #:bs-navbar-toggler
-	   #:bs-navbar-toogler-icon))
+	   #:bs-navbar-toogler-icon
+	   #:bs-offcanvas
+	   #:bs-offcanvas-body
+	   #:bs-offcanvas-header
+	   #:bs-offcanvas-title))
