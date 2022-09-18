@@ -22,4 +22,5 @@
 			     (:file "list-group")
 			     (:file "navs")
 			     (:file "navbar")
-			     (:file "offcanvas")))))
+			     (:file "offcanvas")
+			     (:file "pagination")))))

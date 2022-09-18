@@ -55,4 +55,7 @@
 	   #:bs-offcanvas
 	   #:bs-offcanvas-body
 	   #:bs-offcanvas-header
-	   #:bs-offcanvas-title))
+	   #:bs-offcanvas-title
+	   #:bs-pagination
+	   #:bs-page-item
+	   #:bs-page-link))
