@@ -58,4 +58,6 @@
 	   #:bs-offcanvas-title
 	   #:bs-pagination
 	   #:bs-page-item
-	   #:bs-page-link))
+	   #:bs-page-link
+	   #:bs-progressbar
+	   #:bs-progressbar-labelled))

@@ -23,4 +23,5 @@
 			     (:file "navs")
 			     (:file "navbar")
 			     (:file "offcanvas")
-			     (:file "pagination")))))
+			     (:file "pagination")
+			     (:file "progressbar")))))
