@@ -24,4 +24,5 @@
 			     (:file "navbar")
 			     (:file "offcanvas")
 			     (:file "pagination")
-			     (:file "progressbar")))))
+			     (:file "progressbar")
+			     (:file "toast")))))

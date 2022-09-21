@@ -60,4 +60,7 @@
 	   #:bs-page-item
 	   #:bs-page-link
 	   #:bs-progressbar
-	   #:bs-progressbar-labelled))
+	   #:bs-progressbar-labelled
+	   #:bs-toast
+	   #:bs-toast-body
+	   #:bs-toast-header))
