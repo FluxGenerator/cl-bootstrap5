@@ -30,4 +30,4 @@
 		 :role "progress-bar" :aria-valuenow ,aria-valuenow
 		 :aria-valuemin ,aria-valuemin :aria-valuemax ,aria-valuemax
 		 :style (format nil "width: ~a%;" ,fill)
-		 (:span ,@body)))))
+		 (:span ,@body))))
