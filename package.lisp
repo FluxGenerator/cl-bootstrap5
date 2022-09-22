@@ -49,6 +49,7 @@
 	   #:bs-navbar
 	   #:bs-navbar-brand
 	   #:bs-navbar-collapse
+	   #:bs-navbar-nav
 	   #:bs-navbar-text
 	   #:bs-navbar-toggler
 	   #:bs-navbar-toogler-icon
