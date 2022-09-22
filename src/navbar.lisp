@@ -6,7 +6,7 @@
   "Bootstrap navbar."
   `(bs
     (:nav :id ,id :style ,style
-	  :class (concatinate 'string
+	  :class (concatenate 'string
 			      "navbar"
 			      (format nil " navbar-expand-~a" ,expand)
 			      (format nil " navbar-~a" ,color)
