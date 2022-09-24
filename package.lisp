@@ -46,6 +46,7 @@
 	   #:bs-list-group-button
 	   #:bs-nav
 	   #:bs-nav-item
+	   #:bs-nav-link
 	   #:bs-navbar
 	   #:bs-navbar-brand
 	   #:bs-navbar-collapse
