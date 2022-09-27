@@ -19,6 +19,7 @@
 			     (:file "carousel")
 			     (:file "collapse")
 			     (:file "dropdown")
+			     (:file "link")
 			     (:file "list-group")
 			     (:file "navs")
 			     (:file "navbar")

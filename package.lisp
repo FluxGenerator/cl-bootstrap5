@@ -41,6 +41,7 @@
 	   #:bs-dropdown-button-close
 	   #:bs-dropdown-item
 	   #:bs-dropdown-menu
+	   #:bs-link
 	   #:bs-list-group
 	   #:bs-list-group-item
 	   #:bs-list-group-button
